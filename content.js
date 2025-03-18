@@ -81,6 +81,6 @@ function checkurl() {
     return false;
 }
  function ew(){
-    console.log("hi");
+    console.log("no");
     
  }
