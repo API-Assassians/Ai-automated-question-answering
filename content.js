@@ -80,7 +80,3 @@ function checkurl() {
     }
     return false;
 }
-
-function addcall(){
-    console.log("Hai");
-}
