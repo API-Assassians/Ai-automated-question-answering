@@ -39,6 +39,9 @@ function addFloatingButton(){
     document.body.appendChild(floatbtn);
     if (bookmarkbtn) document.body.appendChild(bookmarkbtn);
     
+    floatbtn.addEventListener("click",showtabs());
+    bookmarkbtn.addEventListener("click",bookmark());
+
     console.log("Floating buttons added!..");
 
 }
@@ -80,7 +83,4 @@ function checkurl() {
     }
     return false;
 }
- function ew(){
-    console.log("no");
-    
- }
+
