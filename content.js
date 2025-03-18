@@ -80,4 +80,3 @@ function checkurl() {
     }
     return false;
 }
-
